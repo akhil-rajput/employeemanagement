@@ -7,7 +7,7 @@ node{
   
  stage ('Compile Stage') {
 
-bat'mvn clean compile'
+bat'mvn compile'
 
 
  }
