@@ -4,13 +4,6 @@ node{
    git:'https://github.com/akhil-rajput/employeemanagement/' 
    
   }
-  
- stage ('Compile Stage') {
-
-bat'mvn compile'
-
-
- }
   stage('test stage'){
 bat'mvn test'
 }
