@@ -10,7 +10,7 @@ bat'mvn test'
   
   
 stage ('Install Stage') {
-bat'mvn install'
+bat'mvn clean install'
 }
 
 
