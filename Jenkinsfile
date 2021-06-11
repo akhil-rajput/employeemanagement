@@ -1,7 +1,7 @@
 node{  
   stage('SCM checkout'){
     
-   git'https://github.com/akhil-rajput/employeemanagement/' 
+   git:'https://github.com/akhil-rajput/employeemanagement/' 
    
   }
   stage('test stage'){
